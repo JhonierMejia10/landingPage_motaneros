@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden">
             {/* Background image */}
             <div className="absolute inset-0 bg-zinc-900">
-                <img src={heroBackground} alt="imagén de fondo para el la sección de hero" className="w-full h-full object-cover opacity-70" />
+                <img src={heroBackground} alt="Llantas de alta calidad en exhibición — Los Montañeros Medellín" className="w-full h-full object-cover opacity-70" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/20" />
 
@@ -23,12 +23,12 @@ export default function Hero() {
                         className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground text-balance"
                         style={{ fontFamily: "var(--font-heading)" }}
                     >
-                        Los mejores{" "}
-                        <span className="text-primary">neumaticos</span>{" "}
+                        Las mejores{" "}
+                        <span className="text-primary">llantas</span>{" "}
                         al mejor precio
                     </h1>
                     <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                        Ofrecemos las mejores marcas del mercado con asesoramiento experto
+                        Ofrecemos las mejores marcas del mercado con asesoramiento profesional
                         y precios que no vas a encontrar en otro lugar.
                     </p>
                     <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -49,11 +49,7 @@ export default function Hero() {
                     {/* Trust stats */}
                     <div className="mt-16 grid grid-cols-3 gap-6 border-t border-border pt-8">
                         <div>
-                            <p className="text-2xl md:text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-heading)" }}>+500</p>
-                            <p className="text-sm text-muted-foreground mt-1">Clientes satisfechos</p>
-                        </div>
-                        <div>
-                            <p className="text-2xl md:text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-heading)" }}>+15</p>
+                            <p className="text-2xl md:text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-heading)" }}>+20</p>
                             <p className="text-sm text-muted-foreground mt-1">Marcas disponibles</p>
                         </div>
                         <div>

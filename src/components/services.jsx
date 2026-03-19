@@ -3,28 +3,28 @@ import { Wrench, RotateCcw, Gauge, ShieldCheck, Truck, Settings } from "lucide-r
 const servicios = [
     {
         icon: Wrench,
-        title: "Cambio de neumaticos",
-        descrpcion: "Instalación profesional de neumaticos para tu vehiculo."
+        title: "Cambio de llantas",
+        descripcion: "Instalación profesional de llantas para tu vehículo."
     },
     {
         icon: RotateCcw,
         title: "Alineación y balanceo",
-        descrpcion: "Servicio de alineación computarizada y balanceo."
+        descripcion: "Servicio de alineación computarizada y balanceo."
     },
     {
         icon: Settings,
         title: "Servicio técnico",
-        descrpcion: "Diagnostico completo del estado de tus neumaticos y recomendaciones profesionales."
+        descripcion: "Diagnóstico completo del estado de tus llantas y recomendaciones profesionales."
     },
     {
         icon: Truck,
         title: "Envío a domicilio",
-        descrpcion: "Envío a domicilio para compras de 10 o más neumaticos."
+        descripcion: "Envío a domicilio para compras de 10 o más llantas."
     },
     {
         icon: ShieldCheck,
         title: "Garantía de calidad",
-        descrpcion: "Todos nuestros productos cuentan con garantía del fabricante y soporte postventa."
+        descripcion: "Todos nuestros productos cuentan con garantía del fabricante y soporte postventa."
     }
 ]
 
@@ -43,7 +43,7 @@ export default function Services() {
                         Nuestros servicios
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-                        Contamos con un equipo de profesionales capacitados para brindarte el mejor servicio en neumaticos y mantenimiento vehicular.
+                        Contamos con un equipo de profesionales capacitados para brindarte el mejor servicio en llantas y mantenimiento vehicular.
                     </p>
                 </div>
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -62,7 +62,7 @@ export default function Services() {
                                 {servicio.title}
                             </h3>
                             <p className="text-muted-foreground leading-relaxed">
-                                {servicio.descrpcion}
+                                {servicio.descripcion}
                             </p>
                         </article>
                     ))}

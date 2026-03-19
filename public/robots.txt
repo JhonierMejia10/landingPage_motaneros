@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://losmontañeros.co/sitemap.xml

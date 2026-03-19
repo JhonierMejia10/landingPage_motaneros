@@ -38,7 +38,7 @@ export function Navbar() {
                 </ul>
 
                 <a
-                    href="https://wa.me/3106068080"
+                    href="https://wa.me/573108252470"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden md:inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
@@ -74,7 +74,7 @@ export function Navbar() {
                         ))}
                         <li className="pt-2">
                             <a
-                                href="https://wa.me/1234567890"
+                                href="https://wa.me/573108252470"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
