@@ -84,7 +84,7 @@ export default function Ofertas() {
                         >
                             {/* Imagen del producto */}
                             <div className="relative aspect-square bg-secondary overflow-hidden">
-                                <img src={oferta.photo} alt={`Llanta ${oferta.brand} ${oferta.name} medida ${oferta.size}`} loading="lazy" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                                <img src={oferta.photo} alt={`Llanta ${oferta.brand} ${oferta.name} medida ${oferta.size}`} width={600} height={600} loading="lazy" className="object-cover group-hover:scale-105 transition-transform duration-500" />
                                 <span className="absolute top-3 left-3 rounded-md bg-primary px-3 py-1 text-xs font-bold text-primary-foreground">
                                     {oferta.badge}
                                 </span>

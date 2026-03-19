@@ -94,6 +94,8 @@ export default function Contact() {
                         <img
                             src={site}
                             alt="Local de llantas Los Montañeros en Medellín — Calle 64C # 75-30"
+                            width={1440}
+                            height={810}
                             loading="lazy"
                             className="object-cover"
                         />

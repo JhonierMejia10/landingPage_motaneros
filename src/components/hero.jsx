@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden">
             {/* Background image */}
             <div className="absolute inset-0 bg-zinc-900">
-                <img src={heroBackground} alt="Llantas de alta calidad en exhibición — Los Montañeros Medellín" className="w-full h-full object-cover opacity-70" />
+                <img src={heroBackground} alt="Llantas de alta calidad en exhibición — Los Montañeros Medellín" width={1024} height={1024} fetchPriority="high" className="w-full h-full object-cover opacity-70" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/20" />
 
