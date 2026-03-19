@@ -56,6 +56,10 @@ export default function Hero() {
                             <p className="text-2xl md:text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-heading)" }}>5+</p>
                             <p className="text-sm text-muted-foreground mt-1">{"Años de experiencia"}</p>
                         </div>
+                        <div>
+                            <p className="text-2xl md:text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-heading)" }}>100%</p>
+                            <p className="text-sm text-muted-foreground mt-1">{"Tasa de recomendación de nuestros clientes"}</p>
+                        </div>
                     </div>
                 </div>
             </div>
